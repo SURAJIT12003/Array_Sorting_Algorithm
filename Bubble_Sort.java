@@ -18,6 +18,7 @@ public class Bubble_Sort{
           for(int j=0;j<n-1;j++){ // j<len is same work 
             
              if(arr[j]>arr[j+1]){  // if current element > next elmented then swap 
+                 // DECREASING ORDER - - **  if arr[j]<arr[j+1] then swap then array is decreasing order ********
                 int r = arr[j];
                 int v = arr[j+1];
                 arr[j]=v;

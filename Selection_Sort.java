@@ -4,7 +4,7 @@ import java.util.*;
 //SPACE COMPLEXCITY  -0(1)
 
 //every time first smaller element place in first position,second smaller element place in second postion, third smallest element placed in third postion  ...so on every element for run loop o(n) time . so tc - 0(n^2) 
-
+//Oposite of Bubble sort Algorithm ...
 public class Selection_Sort {
     public static void selectionSort(int arr[]){
         int n= arr.length;
